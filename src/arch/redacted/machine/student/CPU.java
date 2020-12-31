@@ -1,6 +1,6 @@
-package arch.sm213.machine.student;
+package arch.redacted.machine.student;
 
-import arch.sm213.machine.AbstractSM213CPU;
+import arch.redacted.machine.AbstractRedactedCPU;
 import machine.AbstractMainMemory;
 import machine.RegisterSet;
 import util.UnsignedByte;
@@ -9,10 +9,10 @@ import util.UnsignedByte;
 /**
  * The Simple Machine CPU.
  *
- * Simulate the execution of a single cycle of the Simple Machine SM213 CPU. 
+ * Simulate the execution of a single cycle of the Simple Machine Redacted CPU. 
  */
 
-public class CPU extends AbstractSM213CPU {
+public class CPU extends AbstractRedactedCPU {
   
   /**
    * Create a new CPU.
@@ -31,7 +31,7 @@ public class CPU extends AbstractSM213CPU {
    *
    * Input register:   pc.
    * Output registers: pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
-   * @see AbstractSM213CPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
+   * @see AbstractRedactedCPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
    *
    * @throws MainMemory.InvalidAddressException when program counter contains an invalid memory address
    */
@@ -67,7 +67,7 @@ public class CPU extends AbstractSM213CPU {
    *
    * Input state: pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt, reg, mem
    * Ouput state: pc, reg, mem
-   * @see AbstractSM213CPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
+   * @see AbstractRedactedCPU for pc, instruction, insOpCode, insOp0, insOp1, insOp2, insOpImm, insOpExt
    * @see MainMemory       for mem
    * @see machine.AbstractCPU      for reg
    *

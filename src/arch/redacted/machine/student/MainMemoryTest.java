@@ -1,4 +1,4 @@
-package arch.sm213.machine.student;
+package arch.redacted.machine.student;
 
 import static org.junit.Assert.*;
 
